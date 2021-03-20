@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="290dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="@dimen/spacing_xsmall"
+    android:layout_marginTop="@dimen/spacing_xsmall"
+    android:layout_marginRight="@dimen/spacing_xsmall"
+    android:layout_marginBottom="@dimen/spacing_xsmall"
+    android:layout_weight="1"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/tvNamaSaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Arif Dauhi"
+        android:textColor="#2786c5"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638" />
+
+    <TextView
+        android:id="@+id/tvSaran"
+        android:layout_width="317dp"
+        android:layout_height="119dp"
+        android:text="Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran Saran "
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        app:cardBackgroundColor="@color/blue_50"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986">
+
+        <ImageView
+            android:id="@+id/ivSaran"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="visible" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

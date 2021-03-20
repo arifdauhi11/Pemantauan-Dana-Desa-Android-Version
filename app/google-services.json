@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "48364028722",
+    "firebase_url": "https://pedede-7d8ba.firebaseio.com",
+    "project_id": "pedede-7d8ba",
+    "storage_bucket": "pedede-7d8ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48364028722:android:02624fbba1db6b2d26cd2b",
+        "android_client_info": {
+          "package_name": "com.arifdauhi.pdd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48364028722-uh502shmt3vc1gcmr6e4bp1oe4h4u8ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMdodM0C7UKe50yaiehCdu2yxj7YYlEEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48364028722-uh502shmt3vc1gcmr6e4bp1oe4h4u8ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

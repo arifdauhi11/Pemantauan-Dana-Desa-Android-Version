@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:id="@+id/grp_1" android:checkableBehavior="single">
+<!--        <item-->
+<!--            android:id="@+id/nav_beranda"-->
+<!--            android:icon="@drawable/ic_home"-->
+<!--            android:title="Beranda" />-->
+        <item
+            android:id="@+id/nav_bidang"
+            android:icon="@drawable/ic_news"
+            android:title="Bidang" />
+        <item
+            android:id="@+id/nav_kontak"
+            android:icon="@drawable/ic_contacts"
+            android:title="Kontak" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@drawable/ic_info"
+            android:title="Tentang" />
+    </group>
+</menu>
